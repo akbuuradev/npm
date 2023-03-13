@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+body {
+    background-color: #943de6;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-nav a {
+    font-size: 20px;
+    color: white;
+    padding: 0 30px;
+}
+.select-sort {
+    padding: 10px 10px;
+    border-radius: 5px;
+ }
+.select-reg {
+    padding: 10px 10px;
+    border-radius: 5px;
+ }
+.select-opt {
+    padding: 10px 10px;
+    border-radius: 5px;
+ }
+.card {
+    background: rgba(9, 89, 239, 0.25);
+    border-radius: 10px;
+    color: white;
+}
+.user-tel {
+    font-size: 25px;
+    color: #000;
+}
+.col-4 {
+    color: #000;
+}
+
+.user-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.breeds {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5%;
+}
+
+.breed-img {
+    padding: 20px 0;
+}
+.breed-img img {
+    width: 40%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.breed-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
